@@ -25,7 +25,7 @@ nav ul {
     padding: 0;
     list-style: none;
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 nav li {
@@ -44,6 +44,23 @@ nav li:hover {
     background: #444;
 }
 
-nav a:hover {
+nav li:hover a{
     color: #fff;
+}
+
+
+.menu-sub {
+    position: absolute;
+    background: #444;
+    width: 100%;
+    display: none;
+}
+
+
+nav li:hover .menu-sub {
+    display: block;
+}
+
+.menu-sub li {
+    display: block;
 }
