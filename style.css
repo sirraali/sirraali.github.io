@@ -52,8 +52,10 @@ nav li:hover a{
 .menu-sub {
     position: absolute;
     background: #444;
+    color: #fff;
     width: 100%;
     display: none;
+    padding: 2em;
 }
 
 
@@ -63,4 +65,21 @@ nav li:hover .menu-sub {
 
 .menu-sub li {
     display: block;
+}
+
+.menu-sub a {
+    padding: 0;
+    margin-bottom: .35em;
+}
+
+.menu-sub a:hover {
+    text-decoration: underline;
+}
+
+.menu-category {
+    margin: 2.5em 0 .5em ;
+}
+
+.menu-category:first-of-type {
+    margin-top: 0;
 }
